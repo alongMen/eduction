@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "微软雅黑" ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.f-fl {
+    float: left;
+}
+
+.f-fr {
+    float: right;
+}
+
+.f-tac {
+    text-align: center;
+}
+
+.f-tal {
+    text-align: left;
+}
+
+.f-fwb {
+    font-weight: bold;
+}
+
+.f-fs16 {
+    font-size: 16px;
+}
+
+.f-fs18 {
+    font-size: 18px;
+}
+
+.f-fs20 {
+    font-size: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
